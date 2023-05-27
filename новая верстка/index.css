@@ -4,160 +4,17 @@
   max-height: 720px;
 }
 
-  .header {
-    display: flex;
-    margin: 0 auto;
-    max-width: 880px;
-    padding-top: 45px;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 45px;
-    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
-  }
-  @media (max-width: 906px) {
-    .header {
-      max-width: 500px;
-      padding-left: 40px;
-    }
-  }
-  @media (max-width: 320px) {
-    .header {
-      max-width: 320px;
-      padding-top: 28px;
-      padding-left: 27px;
-      
-    }
-  }
-.header__link {
  
-width: 53px;
 
 
-top: 51px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 122%;
-/* identical to box height, or 122% */
-
-text-align: right;
-
-color: #FFFFFF;
-text-decoration: none;
-}
-.auth__component{
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 358px;
-  margin-top: 60px;
-  margin-bottom: 112px;
-}
-.auth__component-title {
-  width: 358px;
-height: 29px;
-left: 461px;
-top: 179px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-}
-.auth__component-form {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-
-}
-.auth__input-email {
-  margin: 0 auto;
-  padding: 0;
-  width: 358px;
-height: 14px;
-border: none;
-margin-top: 50px;
-color: #CCCCCC;
-background: #000000;
-border-bottom: 2px solid #CCCCCC;
-padding-bottom: 13px;
-}
-.auth__input-password {
-  width: 358px;
-height: 14px;
-margin: 0 auto;
-padding: 0;
-border: none;
-margin-top: 30px;
-color: #CCCCCC;
-background: #000000;
-border-bottom: 2px solid #CCCCCC;
-padding-bottom: 13px;
-}
-.auth__button {
-  margin: 0 auto;
-  padding: 0;
-  width: 358px;
-height: 58px;
-border: none;
-margin-top:  258px;
-border-radius: 2px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-
-text-align: center;
-cursor: pointer;
-color: #000000;
 
 
-}
-.auth__register-signin {
-  display: flex;
-  flex-direction: row;
-  margin-top: 15px;
-  margin-bottom: 80px;
-  
-}
-.auth__register-signin_type_text {
-  margin: 0 auto;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
 
-text-align: center;
 
-color: #FFFFFF;
-}
-.auth__register-signin_type_link {
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
 
-text-align: center;
 
-color: #FFFFFF;
-text-decoration: none;
-padding-left: 10px;
-}
+
+
 /* ccccccccccccccccccccccccccccccccccccccccccccccc
 */
 .popup__container {
@@ -173,21 +30,4 @@ padding-left: 10px;
   position: relative;
   width: 358px;
 }
-.popup__infoTooltip-image {
-  width: 120px;
-  height: 120px;
-  margin: 0 auto;
-  margin: 60px auto 32px;
-}
-.popup__InfoTooltip-text {
-  width: 358px;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
 
-color: #000000;
-margin-bottom: 60px;
-}
