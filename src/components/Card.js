@@ -21,7 +21,7 @@ function Card({ card, onCardClick, onCardLike, onCardDelete }) {
       <img
         className="element__foto"
         src={card.link}
-        alt="#"
+        alt={card.name}
         onClick={handleClick}
       />
       <div className="element__group">
